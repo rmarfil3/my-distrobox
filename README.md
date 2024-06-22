@@ -7,16 +7,8 @@ This repository is generated using https://github.com/ublue-os/boxkit.
 ## How to use
 
 ### Create Box
-
-If you use distrobox:
-
     distrobox create -i ghcr.io/rmarfil3/my-distrobox -n my-distrobox
     distrobox enter my-distrobox
-    
-If you use toolbx:
-
-    toolbox create -i ghcr.io/rmarfil3/my-distrobox -c my-distrobox
-    toolbox enter my-distrobox
 
 ### Pull down your config
 
