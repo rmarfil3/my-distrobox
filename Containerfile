@@ -7,9 +7,13 @@ LABEL com.github.containers.toolbox="true" \
 
 COPY ./extra-packages /toolbox-packages
 COPY ./repos/*.repo /etc/yum.repos.d/
+COPY ./install-scripts /usr/local/bin/install-scripts
+COPY ./install-all.sh /usr/local/bin/install-all.sh
 
 RUN dnf -y upgrade && \
     dnf -y install $(<toolbox-packages) && \
     dnf clean all
+
+RUN /usr/local/bin/install-all.sh
 
 RUN rm /toolbox-packages
