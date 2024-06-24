@@ -6,6 +6,7 @@ LABEL com.github.containers.toolbox="true" \
       summary="A cloud-native terminal experience powered by Fedora" 
 
 COPY ./extra-packages /toolbox-packages
+COPY ./repos/*.repo /etc/yum.repos.d/
 
 RUN dnf -y upgrade && \
     dnf -y install $(<toolbox-packages) && \
