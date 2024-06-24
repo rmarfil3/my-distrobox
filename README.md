@@ -1,4 +1,4 @@
-# boxkit
+# my-distrobox
 
 ## Description
 
