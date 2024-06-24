@@ -10,6 +10,12 @@ This repository is generated using https://github.com/ublue-os/boxkit.
     distrobox create -i ghcr.io/rmarfil3/my-distrobox -n my-distrobox
     distrobox enter my-distrobox
 
+### Exports
+    distrobox-export --bin /usr/bin/gcloud
+
+### Fish
+    set -U fish_user_paths $fish_user_paths ~/.local/bin
+
 ## Verification
 
 These images are signed with sisgstore's [cosign](https://docs.sigstore.dev/cosign/overview/). You can verify the signature by downloading the `cosign.pub` key from this repo and running the following command:
