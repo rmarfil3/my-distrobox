@@ -1,4 +1,4 @@
-# boxkit
+# my-distrobox
 
 ## Description
 
@@ -9,6 +9,12 @@ This repository is generated using https://github.com/ublue-os/boxkit.
 ### Create Box
     distrobox create -i ghcr.io/rmarfil3/my-distrobox -n my-distrobox
     distrobox enter my-distrobox
+
+### Exports
+    distrobox-export --bin /usr/bin/gcloud
+
+### Fish
+    set -U fish_user_paths $fish_user_paths ~/.local/bin
 
 ## Verification
 
