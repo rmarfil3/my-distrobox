@@ -13,6 +13,7 @@ This repository is generated using https://github.com/ublue-os/boxkit.
 ### Exports
     distrobox-export --bin /usr/bin/gcloud
     distrobox-export --app /usr/bin/brave-browser
+    distrobox-export --bin /usr/bin/insync
 
 ### Fish
     set -U fish_user_paths $fish_user_paths ~/.local/bin
