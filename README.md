@@ -15,6 +15,21 @@ This repository is generated using https://github.com/ublue-os/boxkit.
     distrobox-export --app /usr/bin/brave-browser
     distrobox-export --bin /usr/bin/insync
 
+### Distrobox Assemble
+    [my-distrobox]
+    image=ghcr.io/rmarfil3/my-distrobox:latest
+    init=false
+    pull=true
+    replace=true
+    nvidia=false
+    start_now=false
+    root=false
+    exported_apps="/usr/bin/brave-browser"
+    exported_bins="/usr/bin/gcloud"
+    exported_bins="/usr/bin/insync"
+
+## Additional Configurations
+
 ### Fish
     set -U fish_user_paths $fish_user_paths ~/.local/bin
 
