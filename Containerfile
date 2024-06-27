@@ -18,7 +18,6 @@ RUN dnf -y upgrade && \
 
 RUN rm /toolbox-packages
 
-RUN ln -s /usr/libexec/flatpak-xdg-utils/flatpak-spawn /usr/bin/ && \
-    ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/docker && \
+RUN ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/docker && \
     ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/flatpak && \ 
     ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/podman
