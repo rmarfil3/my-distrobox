@@ -25,7 +25,6 @@ This repository is generated using https://github.com/ublue-os/boxkit.
     start_now=false
     root=false
     exported_apps="/usr/bin/brave-browser"
-    exported_bins="/usr/bin/gcloud"
     exported_bins="/usr/bin/insync"
 
 ## Additional Configurations
