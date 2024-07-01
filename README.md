@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository is generated using https://github.com/ublue-os/boxkit.
+This repository was generated using https://github.com/ublue-os/boxkit.
 
 ## How to use
 
