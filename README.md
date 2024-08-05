@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository is generated using https://github.com/ublue-os/boxkit.
+This repository was generated using https://github.com/ublue-os/boxkit.
 
 ## How to use
 
@@ -11,7 +11,6 @@ This repository is generated using https://github.com/ublue-os/boxkit.
     distrobox enter my-distrobox
 
 ### Exports
-    distrobox-export --bin /usr/bin/gcloud
     distrobox-export --app /usr/bin/brave-browser
     distrobox-export --bin /usr/bin/insync
 
