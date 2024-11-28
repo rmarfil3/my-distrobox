@@ -26,6 +26,10 @@ This repository was generated using https://github.com/ublue-os/boxkit.
     exported_apps="/usr/bin/brave-browser"
     exported_bins="/usr/bin/insync"
 
+Run `distrobox assemble create` (if saved as distrobox.ini and launched terminal in the same directory)
+
+Or `distrobox assemble create --file /my/custom/path.ini`
+
 ## Additional Configurations
 
 ### Fish
